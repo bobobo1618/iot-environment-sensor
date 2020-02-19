@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3000 2300 2800 2300
+Text Label 2800 2300 0    70   ~ 0
+5V
+Wire Wire Line
+	8900 6800 8900 7100
+Text Label 8900 7100 1    70   ~ 0
+5V
+Wire Wire Line
+	5700 2800 5400 2800
+Wire Wire Line
+	4500 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 2200
+Wire Wire Line
+	4500 2200 5100 2200
+Wire Wire Line
+	5100 2200 5400 2200
+Wire Wire Line
+	5400 2200 5500 2200
+Wire Wire Line
+	4500 2700 5100 2700
+Wire Wire Line
+	5100 2700 5100 2200
+Wire Wire Line
+	5400 2800 5400 2200
+Text Label 5500 2800 0    70   ~ 0
+5V
+Connection ~ 5100 2200
+Connection ~ 5400 2200
+Wire Wire Line
+	5600 6000 4600 6000
+Text Label 5200 6000 0    70   ~ 0
+GND
+Wire Wire Line
+	8500 4200 8200 4200
+Text Label 8200 4200 0    70   ~ 0
+GND
+Wire Wire Line
+	5600 4100 5300 4100
+Text Label 5300 4100 0    70   ~ 0
+GND
+Wire Wire Line
+	6800 4200 7000 4200
+Text Label 7000 4200 0    70   ~ 0
+GND
+Wire Wire Line
+	6200 4700 6200 4900
+Text Label 6200 4800 0    70   ~ 0
+GND
+Wire Wire Line
+	8000 2400 7700 2400
+Text Label 7700 2400 0    70   ~ 0
+GND
+Wire Wire Line
+	9200 2600 9500 2600
+Text Label 9500 2600 0    70   ~ 0
+GND
+Wire Wire Line
+	9200 2400 9500 2400
+Text Label 9500 2400 0    70   ~ 0
+GND
+Wire Wire Line
+	10100 2900 10400 2900
+Text Label 10400 2900 0    70   ~ 0
+GND
+Wire Wire Line
+	10100 2500 10400 2500
+Text Label 10400 2500 0    70   ~ 0
+GND
+Wire Wire Line
+	4800 4200 4800 4300
+Text Label 4800 4300 0    70   ~ 0
+GND
+Wire Wire Line
+	7800 4400 7800 4600
+Text Label 7800 4600 0    70   ~ 0
+GND
+Wire Wire Line
+	10400 4500 10400 4700
+Text Label 10400 4700 0    70   ~ 0
+GND
+Wire Wire Line
+	7500 6300 7500 6500
+Text Label 7500 6500 0    70   ~ 0
+GND
+Wire Wire Line
+	3000 2400 2800 2400
+Text Label 2800 2400 0    70   ~ 0
+GND
+Wire Wire Line
+	9000 6800 9000 7100
+Text Label 9000 7100 1    70   ~ 0
+GND
+Wire Wire Line
+	4500 3000 5300 3000
+Wire Wire Line
+	5300 3000 5300 2700
+Wire Wire Line
+	5300 2700 5300 2500
+Wire Wire Line
+	4500 2500 5300 2500
+Wire Wire Line
+	4500 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2500
+Wire Wire Line
+	5700 2700 5300 2700
+Text Label 5500 2700 0    70   ~ 0
+GND
+Connection ~ 5300 2500
+Connection ~ 5300 2700
+Wire Wire Line
+	6800 6000 7500 6000
+Text Label 7000 6000 0    70   ~ 0
+3V3
+Wire Wire Line
+	7800 4100 8500 4100
+Text Label 8200 4100 0    70   ~ 0
+3V3
+Wire Wire Line
+	8500 4300 8200 4300
+Text Label 8200 4300 0    70   ~ 0
+3V3
+Wire Wire Line
+	3000 2500 2800 2500
+Text Label 2800 2500 0    70   ~ 0
+3V3
+Wire Wire Line
+	5600 5900 5400 5900
+Text Label 5400 5900 0    70   ~ 0
+3V3SDA
+Wire Wire Line
+	9200 6800 9200 7100
+Text Label 9200 7100 1    70   ~ 0
+3V3SDA
+Wire Wire Line
+	1100 3900 800  3900
+Text Label 800  3900 0    70   ~ 0
+3V3SDA
+Wire Wire Line
+	6800 5900 7000 5900
+Text Label 7000 5900 0    70   ~ 0
+3V3SCL
+Wire Wire Line
+	9100 6800 9100 7100
+Text Label 9100 7100 1    70   ~ 0
+3V3SCL
+Wire Wire Line
+	1100 3800 800  3800
+Text Label 800  3800 0    70   ~ 0
+3V3SCL
+Wire Wire Line
+	1100 3200 800  3200
+Text Label 800  3200 0    70   ~ 0
+U1RXD
+Wire Wire Line
+	5700 2400 5500 2400
+Text Label 5500 2400 0    70   ~ 0
+U1RXD
+Wire Wire Line
+	1100 3300 800  3300
+Text Label 800  3300 0    70   ~ 0
+U1TXD
+Wire Wire Line
+	5700 2500 5500 2500
+Text Label 5500 2500 0    70   ~ 0
+U1TXD
+Wire Wire Line
+	5600 6100 4900 6100
+Wire Wire Line
+	4900 6100 4900 6400
+Wire Wire Line
+	4900 6400 4600 6400
+Wire Wire Line
+	4600 6400 4600 6300
+Text Label 5200 6100 0    70   ~ 0
+1V8
+Wire Wire Line
+	6800 6100 7000 6100
+Text Label 7000 6100 0    70   ~ 0
+1V8
+Wire Wire Line
+	9700 4200 10400 4200
+Text Label 10000 4200 0    70   ~ 0
+1V8
+Wire Wire Line
+	5600 4000 5200 4000
+Wire Wire Line
+	4800 3900 5200 3900
+Wire Wire Line
+	5200 3900 5200 4000
+Text Label 5300 4000 0    70   ~ 0
+1V8
+Wire Wire Line
+	6800 4100 7000 4100
+Text Label 7000 4100 0    70   ~ 0
+1V8
+Wire Wire Line
+	10100 2600 9800 2600
+Wire Wire Line
+	9800 2600 9800 2700
+Wire Wire Line
+	9800 2700 9200 2700
+Text Label 9500 2700 0    70   ~ 0
+1V8
+Wire Wire Line
+	10100 2200 9800 2200
+Wire Wire Line
+	9800 2200 9800 2500
+Wire Wire Line
+	9800 2500 9200 2500
+Text Label 9500 2500 0    70   ~ 0
+1V8
+Wire Wire Line
+	8000 2500 7700 2500
+Text Label 7700 2500 0    70   ~ 0
+1V8
+Wire Wire Line
+	5600 6200 5400 6200
+Text Label 5400 6200 0    70   ~ 0
+1V8SDA
+Wire Wire Line
+	5600 4200 5300 4200
+Text Label 5300 4200 0    70   ~ 0
+1V8SDA
+Wire Wire Line
+	8000 2600 7700 2600
+Text Label 7700 2600 0    70   ~ 0
+1V8SDA
+Wire Wire Line
+	6800 6200 7000 6200
+Text Label 7000 6200 0    70   ~ 0
+1V8SCL
+Wire Wire Line
+	6800 4000 7000 4000
+Text Label 7000 4000 0    70   ~ 0
+1V8SCL
+Wire Wire Line
+	8000 2700 7700 2700
+Text Label 7700 2700 0    70   ~ 0
+1V8SCL
+Wire Wire Line
+	9300 6800 9300 7100
+Text Label 9300 7100 1    70   ~ 0
+SCD30RDY
+Wire Wire Line
+	9400 6800 9400 7100
+Text Label 9400 7100 1    70   ~ 0
+SCD30PWM
+Wire Wire Line
+	9500 6800 9500 7100
+Text Label 9500 7100 1    70   ~ 0
+SCD30SEL
+$Comp
+L board-eagle-import:M50-3000545 J3
+U 1 1 D6A0AFFD
+P 5700 2400
+F 0 "J3" H 6450 2700 59  0000 L CNN
+F 1 "M50-3000545" H 6450 2600 59  0000 L CNN
+F 2 "board:SHDR10W40P127X127_2X5_675X310X" H 5700 2400 50  0001 C CNN
+F 3 "" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:SGP30-2.5K HM1
+U 1 1 F2614803
+P 5600 4000
+F 0 "HM1" H 6650 4300 59  0000 L CNN
+F 1 "SGP30-2.5K" H 6650 4200 59  0000 L CNN
+F 2 "board:SON80P245X245X90-7N" H 5600 4000 50  0001 C CNN
+F 3 "" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:TCA9406DCUR IC1
+U 1 1 06F92037
+P 5600 5900
+F 0 "IC1" H 6650 6200 59  0000 L CNN
+F 1 "TCA9406DCUR" H 6650 6100 59  0000 L CNN
+F 2 "board:SOP50P310X90-8N" H 5600 5900 50  0001 C CNN
+F 3 "" H 5600 5900 50  0001 C CNN
+	1    5600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:BMP280 IC2
+U 1 1 541775CA
+P 8000 2400
+F 0 "IC2" H 9050 2700 59  0000 L CNN
+F 1 "BMP280" H 9050 2600 59  0000 L CNN
+F 2 "board:8-PIN-METAL-LID-LGA_1" H 8000 2400 50  0001 C CNN
+F 3 "" H 8000 2400 50  0001 C CNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:MIC5225-1.8YM5 U1
+U 1 1 F9562130
+P 8500 4100
+F 0 "U1" H 9550 4400 59  0000 L CNN
+F 1 "MIC5225-1.8YM5" H 9550 4300 59  0000 L CNN
+F 2 "board:SOT95P280X145-5N" H 8500 4100 50  0001 C CNN
+F 3 "" H 8500 4100 50  0001 C CNN
+	1    8500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C1
+U 1 1 673D29D4
+P 7800 4200
+F 0 "C1" H 7860 4215 59  0000 L BNN
+F 1 "1uF 25V" H 7860 4015 59  0000 L BNN
+F 2 "board:C0402" H 7800 4200 50  0001 C CNN
+F 3 "" H 7800 4200 50  0001 C CNN
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C2
+U 1 1 B1C84B03
+P 10400 4300
+F 0 "C2" H 10460 4315 59  0000 L BNN
+F 1 "2.2uF 25V" H 10460 4115 59  0000 L BNN
+F 2 "board:C0402" H 10400 4300 50  0001 C CNN
+F 3 "" H 10400 4300 50  0001 C CNN
+	1    10400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C3
+U 1 1 DBA5C6C1
+P 4800 4000
+F 0 "C3" H 4860 4015 59  0000 L BNN
+F 1 "0.1uF 25V" H 4860 3815 59  0000 L BNN
+F 2 "board:C0402" H 4800 4000 50  0001 C CNN
+F 3 "" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C4
+U 1 1 F90D757B
+P 10100 2300
+F 0 "C4" H 10160 2315 59  0000 L BNN
+F 1 "0.1uF 25V" H 10160 2115 59  0000 L BNN
+F 2 "board:C0402" H 10100 2300 50  0001 C CNN
+F 3 "" H 10100 2300 50  0001 C CNN
+	1    10100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C5
+U 1 1 28535FDE
+P 10100 2700
+F 0 "C5" H 10160 2715 59  0000 L BNN
+F 1 "0.1uF 25V" H 10160 2515 59  0000 L BNN
+F 2 "board:C0402" H 10100 2700 50  0001 C CNN
+F 3 "" H 10100 2700 50  0001 C CNN
+	1    10100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C6
+U 1 1 2F271B70
+P 4600 6100
+F 0 "C6" H 4660 6115 59  0000 L BNN
+F 1 "0.1uF 25V" H 4660 5915 59  0000 L BNN
+F 2 "board:C0402" H 4600 6100 50  0001 C CNN
+F 3 "" H 4600 6100 50  0001 C CNN
+	1    4600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C7
+U 1 1 68A30DA7
+P 7500 6100
+F 0 "C7" H 7560 6115 59  0000 L BNN
+F 1 "0.1uF 25V" H 7560 5915 59  0000 L BNN
+F 2 "board:C0402" H 7500 6100 50  0001 C CNN
+F 3 "" H 7500 6100 50  0001 C CNN
+	1    7500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0402 C8
+U 1 1 B35FE38C
+P 4500 1900
+F 0 "C8" H 4560 1915 59  0000 L BNN
+F 1 "0.1uF 25V" H 4560 1715 59  0000 L BNN
+F 2 "board:C0402" H 4500 1900 50  0001 C CNN
+F 3 "" H 4500 1900 50  0001 C CNN
+	1    4500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:C-EUC0805 C9
+U 1 1 A726831C
+P 4500 2300
+F 0 "C9" H 4560 2315 59  0000 L BNN
+F 1 "22uF 25V" H 4560 2115 59  0000 L BNN
+F 2 "board:C0805" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:CPOL-EUE5-10.5 C10
+U 1 1 BF2E6C55
+P 4500 2800
+F 0 "C10" H 4545 2819 59  0000 L BNN
+F 1 "220uF 35V" H 4545 2619 59  0000 L BNN
+F 2 "board:E5-10,5" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:SAMTEC_SSQ-107-01-T-SSAMTEC_SSQ-107-01-T-S_0_0 J4
+U 1 1 2A89DB3B
+P 8800 6200
+F 0 "J4" H 8800 6100 85  0000 L TNN
+F 1 "SAMTEC_SSQ-107-01-T-SSAMTEC_SSQ-107-01-T-S_0_0" H 8800 6200 50  0001 C CNN
+F 2 "board:SAMTEC_SSQ-107-01-T-S_0" H 8800 6200 50  0001 C CNN
+F 3 "" H 8800 6200 50  0001 C CNN
+	1    8800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L board-eagle-import:SAMTEC_SSQ-117-01-T-SSAMTEC_SSQ-117-01-T-S_0_0 J2
+U 1 1 F2D55355
+P 3600 2200
+F 0 "J2" H 3600 2100 85  0000 L TNN
+F 1 "SAMTEC_SSQ-117-01-T-SSAMTEC_SSQ-117-01-T-S_0_0" H 3600 2200 50  0001 C CNN
+F 2 "board:SAMTEC_SSQ-117-01-T-S_0" H 3600 2200 50  0001 C CNN
+F 3 "" H 3600 2200 50  0001 C CNN
+	1    3600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L board-eagle-import:SAMTEC_SSQ-117-01-T-SSAMTEC_SSQ-117-01-T-S_0_0 J1
+U 1 1 2CE6A523
+P 1700 2200
+F 0 "J1" H 1700 2100 85  0000 L TNN
+F 1 "SAMTEC_SSQ-117-01-T-SSAMTEC_SSQ-117-01-T-S_0_0" H 1700 2200 50  0001 C CNN
+F 2 "board:SAMTEC_SSQ-117-01-T-S_0" H 1700 2200 50  0001 C CNN
+F 3 "" H 1700 2200 50  0001 C CNN
+	1    1700 2200
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
